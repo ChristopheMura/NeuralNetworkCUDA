@@ -1,0 +1,3 @@
+C:/Users/Chris/Documents/Etude_Inge/Git_Test/NeuralNetworkCUDA/build/CMakeFiles/run.dir
+C:/Users/Chris/Documents/Etude_Inge/Git_Test/NeuralNetworkCUDA/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Chris/Documents/Etude_Inge/Git_Test/NeuralNetworkCUDA/build/CMakeFiles/ZERO_CHECK.dir

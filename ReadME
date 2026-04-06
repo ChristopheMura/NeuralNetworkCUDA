@@ -1,0 +1,6 @@
+Pour compiler le projet
+1.  cmake -G "Visual Studio 17 2022" -A x64 ..
+
+2.  cmake --build . --config Release
+
+Le fichier de executable sera dans build/Release/run.exe

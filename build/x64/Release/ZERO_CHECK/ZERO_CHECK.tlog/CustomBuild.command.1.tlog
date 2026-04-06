@@ -1,0 +1,10 @@
+^C:\USERS\CHRIS\DOCUMENTS\ETUDE_INGE\GIT_TEST\NEURALNETWORKCUDA\BUILD\CMAKEFILES\5F7C009A7A19F73C4221B154E6022028\GENERATE.STAMP.RULE
+setlocal
+C:\msys64\mingw64\bin\cmake.exe -SC:/Users/Chris/Documents/Etude_Inge/Git_Test/NeuralNetworkCUDA -BC:/Users/Chris/Documents/Etude_Inge/Git_Test/NeuralNetworkCUDA/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Chris/Documents/Etude_Inge/Git_Test/NeuralNetworkCUDA/build/cuda_project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
